@@ -5,8 +5,11 @@
 }
 
 .box {
-  width: 350px;
-  height: 300px;
+  width: 90%;
+  max-width: 350px;
+  box-sizing: border-box;
+  min-height: 300px;
+  height: auto;
   background: #e0e0e0;
   border-radius: 12px;
   border: 1px solid black;
@@ -14,11 +17,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.coin-flip {
-  top: 75;
-  left: 0;
 }
 
 #flip-button {

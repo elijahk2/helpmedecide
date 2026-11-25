@@ -1,10 +1,10 @@
 // Coin flip button code
 const flip_button = document.getElementById("flip-button");
-const flip_result = document.getElementById("result");
+const flip_result = document.getElementById("flip-result");
 
 flip_button.addEventListener("click", () => {
 const coin = Math.random() < 0.5 ? "Heads" : "Tails";
-result.textContent = coin;
+flip_result.textContent = coin;
 });
 
 // Coin flip button code
