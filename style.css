@@ -1,0 +1,36 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.box {
+  width: 350px;
+  height: 300px;
+  background: #e0e0e0;
+  border-radius: 12px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-flip {
+  top: 75;
+  left: 0;
+}
+
+#flip-button {
+    width: 180px;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#dice-button {
+    width: 180px;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: center;
+}
