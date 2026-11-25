@@ -3,6 +3,7 @@ h1 {
   font-weight: 800;
   letter-spacing: -0.02em;
   color: #2E1A16;
+  font-size: 50px;
 }
 
 .box-container {
@@ -42,4 +43,8 @@ h1 {
 
 body {
     background-color: #ff9595;
+}
+
+#item-list:empty {
+  display: none;
 }

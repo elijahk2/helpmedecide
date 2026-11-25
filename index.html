@@ -8,13 +8,27 @@
   <body>
     <h1>HelpMeDecide</h1>
     <div class="box-container">
-      <div class="box coin-flip">
+      <div class="box">
         <button id="flip-button">Coin Flip</button>
         <p id="flip-result">Click the button to start</p>
       </div>
       <div class="box">
         <button id="dice-button">Die Roll</button>
         <p id="dice-result">Roll the die</p>
+      </div>
+      <div class="box">
+        <h2>The 8-Ball</h2>
+        <button id="8-ball-button">Ask me anything!</button>
+        <p id="8-ball-result">I think...</p>
+      </div>
+      <div class="box">
+        <form id="item-form">
+          <input id="item-input" type="text" placeholder="e.g. Go for a walk">
+          <button type="submit">Add</button>
+        </form>
+        <ul id="item-list"></ul>
+        <button id="pick-activity-button" type="button">Pick an Activity</button>
+        <p id="activity-result" aria-live="polite">Add activities, then pick one.</p>
       </div>
     </div>
   </body>
